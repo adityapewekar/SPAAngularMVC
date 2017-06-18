@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SPAAngularJSMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,31 @@ namespace SPAAngularJSMVC.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        [HttpGet]
+        public JsonResult GetAllComments()
+        {
+            List<CommentsEntity> comments = new List<CommentsEntity>();
+
+            comments.Add(
+                new CommentsEntity
+                {
+                    id = 1,
+                    Comments = "Good",
+                    CommentRemarks = "Good",
+                    Section = "Maths"
+                });
+
+            comments.Add(
+                new CommentsEntity
+                {
+                    id = 1,
+                    Comments = "Needs Improvement",
+                    CommentRemarks = "Bad",
+                    Section = "History"
+            });
+            return Json(comments, JsonRequestBehavior.AllowGet);
         }
     }
 }

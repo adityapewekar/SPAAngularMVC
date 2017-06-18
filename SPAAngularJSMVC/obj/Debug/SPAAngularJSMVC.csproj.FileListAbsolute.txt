@@ -51,3 +51,5 @@ c:\users\addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngul
 c:\users\addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngularJSMVC\bin\System.Web.Mvc.xml
 c:\users\addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngularJSMVC\obj\Debug\SPAAngularJSMVC.dll
 c:\users\addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngularJSMVC\obj\Debug\SPAAngularJSMVC.pdb
+C:\Users\Addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngularJSMVC\bin\EntityFramework.dll
+C:\Users\Addicted\documents\visual studio 2015\Projects\SPAAngularJSMVC\SPAAngularJSMVC\bin\EntityFramework.xml
